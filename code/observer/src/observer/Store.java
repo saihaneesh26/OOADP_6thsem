@@ -9,10 +9,6 @@ public class Store {
 	}
 	public void detach() {
 		System.out.println("Enter Discount to be removed\n");
-		for(int i=0;i<discounts.size();i++) {
-			System.out.print(i+1);
-			System.out.println(": "+discounts.get(i));
-		}
 		int ch = Integer.parseInt(s.nextLine());
 		discounts.remove(ch-1);
 	}
