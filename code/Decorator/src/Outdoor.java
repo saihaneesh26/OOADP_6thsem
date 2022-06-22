@@ -1,8 +1,6 @@
 
-public class Outdoor extends SportStock {
+public abstract class Outdoor extends SportStock {
 	@Override
-	public void stock() {
-		System.out.println("STOCK of outdoor :100");
-	}
+	public abstract void stock();
 
 }

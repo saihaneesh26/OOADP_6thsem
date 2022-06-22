@@ -1,9 +1,7 @@
 
-public class Indoor extends SportStock {
+public abstract class Indoor extends SportStock {
 
 	@Override
-	public void stock() {
-		System.out.println("STOCK of Indoor :200");
-	}
+	public abstract void stock();
 
 }
